@@ -76,7 +76,7 @@ body{
 /* 媒体查询，用于手机端适配，当最大宽度=<500px时，所有div的大小都缩小一半 */
 /* 第一个和第二个div不用改，因为没有用px写死宽高 */
 /* @media()这个要放在对应要修改的样式的下面，不然会找不到，等于没修改 */
-@media(max-width:500px){
+@media(max-width:700px){
     #八卦{
         width: 200px;
         height: 200px;
@@ -115,7 +115,7 @@ body{
     border-radius: 50%;
     background: black;
 }
-@media(max-width:500px){
+@media(max-width:800px){
     #八卦>div:nth-child(3){
         width: 100px;
         height: 100px;
@@ -135,7 +135,7 @@ body{
     border-radius: 50%;
     background: white;
 }
-@media(max-width:500px){
+@media(max-width:800px){
     #八卦>div:nth-child(4){
         width: 100px;
         height: 100px;
@@ -154,7 +154,7 @@ body{
     border-radius: 50%;
     background: white;
 }
-@media(max-width:500px){
+@media(max-width:800px){
     #八卦>div:nth-child(5){
         width: 25px;
         height: 25px;
@@ -174,12 +174,12 @@ body{
     border-radius: 50%;
     background: black;
 }
-@media(max-width:500px){
+@media(max-width:800px){
     #八卦>div:nth-child(6){
        width: 25px;
        height: 25px;
        bottom: 37.5px;
        margin-left: -12.5px;
-       border: 1px solid red;
+       /* border: 1px solid red; */
    }
 }
